@@ -81,7 +81,7 @@ public class OgrenciManager extends Veritabani {
             Thread.sleep(100);
             System.out.print(">");
         }
-        //  Programın çalışmaya devam etmesi için gerekli
+
         try {
             boolean sonuc = sonucValue.equals(silinecekValue);
         } catch (Exception e) {
@@ -168,7 +168,7 @@ public class OgrenciManager extends Veritabani {
                         "============SOYADI ILE ÖĞRENCİ ARAMA ============\n" +
                         "TcNo : Isim , Soyisim , D.Yili , Okul No, Sınıf, Şube");
 
-        // Daha düzgün bi görünüm için printf veya String.format kullanılabilir... İsteğe bağlı
+
         for (Map.Entry<String, String> each : ogrenciEntrySet) {
             String eachKey = each.getKey();
             String eachValue = each.getValue();

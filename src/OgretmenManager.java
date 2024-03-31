@@ -85,16 +85,13 @@ public class OgretmenManager extends Veritabani {
             System.out.print(">");
         }
 
-        //////////////////////////////////////////////////////////////////////////////
-        // BU BLOĞU DEĞİŞTİRMEYİN, DİKKATE ALMAYIN...                               //
-        // SİLİNECEK KİMLİK NO YOKSA VEYA BAŞKA BEKLENMEDİK                         //
-        // ŞEYLER OLURSA KODUN DEVAMINI SAĞLAYACAK...
-        try {                                                                       //
-            boolean sonuc = sonucValue.equals(silinecekValue);                      //
-        } catch (Exception e) {                                                     //
-            System.out.println("Istediginiz Tc numarasi ile ogretmen bulunamadi");  //
-        }                                                                           //
-        //////////////////////////////////////////////////////////////////////////////
+
+        try {
+            boolean sonuc = sonucValue.equals(silinecekValue);
+        } catch (Exception e) {
+            System.out.println("Istediginiz Tc numarasi ile ogretmen bulunamadi");
+        }
+
     }
 
 
@@ -135,7 +132,7 @@ public class OgretmenManager extends Veritabani {
                         "============BRANS ILE OGRETMEN ARAMA ============\n" +
                         "TcNo : Isim , Soyisim , D.Yili , Brans");
 
-        // Daha düzgün bi görünüm için printf veya String.format kullanılabilir... İsteğe bağlı
+
         for (Map.Entry<String, String> each : ogretmenEntrySet) {
             String eachKey = each.getKey();
             String eachValue = each.getValue();
@@ -164,7 +161,7 @@ public class OgretmenManager extends Veritabani {
                         "============SOYADI ILE ÖĞRETMEN ARAMA ============\n" +
                         "TcNo : Isim , Soyisim , D.Yili , Branş");
 
-        // Daha düzgün bi görünüm için printf veya String.format kullanılabilir... İsteğe bağlı
+
         for (Map.Entry<String, String> each : ogretmenEntrySet) {
             String eachKey = each.getKey();
             String eachValue = each.getValue();

@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Helper {
     static Scanner scan = new Scanner(System.in);
 
-    //AŞAĞIDAKİ anaMenu() METODUNDA BİR DEĞİŞİKLİK YAPMAYINIZ!
+
     public static void anaMenu() throws InterruptedException {
 
         String tercih="";
@@ -55,7 +55,7 @@ public class Helper {
 
     }
 
-    // AŞAĞIDAKİ projeDurdur() METODUNDA BİR DEĞİŞİKLİK YAPMAYINIZ.
+
     public static void projeDurdur() {
         System.out.println("Okul projesinden ciktiniz");
         System.exit(0);

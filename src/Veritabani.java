@@ -5,14 +5,7 @@ import java.util.Map;
 
 public class Veritabani {
 
-    // TODO BU SINIFTA BİRŞEY DEĞİŞTİRMENİZE GEREK YOK.
-    //  PROGRAM BAŞLAR BAŞLAMAZ, AŞAĞIDAKİ METODLAR, main METODU İÇEREN CLASS'TA ÇALIŞACAK,
-    //  BÖYLECE AŞAĞIDAKİ ÖĞRENCİLER ÖĞRENCİ LİSTESİNE; ÖĞRETMENLER ÖĞRETMEN LİSTESİNE EKLENMİŞ OLACAKTIR.
-    //  SİZ DE OgrenciManager VE OgretmenManager'da YAZACAĞINIZ METODLARLARLA,
-    //  ASLINDA BU LİSTELERİ DEĞİŞTİRMİŞ OLACAKSINIZ.
 
-
-    // ÖĞRETMEN MENÜDEKİ LİSTELEME-EKLEME-SİLME-ARAMA METODLARI BU LİSTEYİ ETKİLEYECEK.
     static Map<String, String> ogretmenlerMap = new HashMap<>();
 
     public static void baslangicOgretmenVeritabaniOlustur() {
@@ -24,7 +17,7 @@ public class Veritabani {
     }
 
     static Map<String, String> ogrenciMap = new HashMap<>();
-    // ÖĞRENCİ MENÜDEKİ LİSTELEME-EKLEME-SİLME-ARAMA METODLARI BU LİSTEYİ ETKİLEYECEK.
+
 
     public static void baslangicOgrenciVeritabaniOlustur() {
         ogrenciMap.put("469922399405", "Ali, Can, 2008, 3569, 12, A");
